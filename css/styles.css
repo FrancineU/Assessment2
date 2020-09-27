@@ -7,7 +7,7 @@
 .row{
    margin-left: 20%;
    display: inline-block;
-   align-items: center;
+   justify-content: space-between;
 }
 
 
