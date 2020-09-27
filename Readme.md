@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> ad2a0734580c34de824feb74d27d0f2e5bd3fbc4
 # Project Two
 # Akhan Name
 # Project description
@@ -19,4 +23,8 @@ Javascript
 # Contact Information 
  +250785834822
  
+<<<<<<< HEAD
  Email:uwizeyimanafrancine62@gmail.com
+=======
+ Email:uwizeyimanafrancine62@gmail.com
+>>>>>>> ad2a0734580c34de824feb74d27d0f2e5bd3fbc4

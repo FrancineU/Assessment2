@@ -5,7 +5,9 @@
     background-color: lightslategray;
 }
 .row{
-
+   margin-left: 20%;
+   display: inline-block;
+   align-items: center;
 }
 
 
