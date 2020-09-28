@@ -4,12 +4,3 @@
     margin-top: 20%;
     background-color: lightslategray;
 }
-.row{
-   margin-left: 20%;
-   display: inline-block;
-   justify-content: space-between;
-}
-nav-link{
-    text-transform: uppercase;
-}
-
