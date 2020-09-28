@@ -1,12 +1,10 @@
 
 .card{
     padding: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: lightslategray;
 }
 form{
 margin-left: 40%;
 }
-.card{
-    margin-top: 10%;
-}
+
