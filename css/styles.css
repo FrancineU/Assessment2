@@ -1,10 +1,52 @@
+body{
+    color: white;
+}
+
+.content{
+    background-image: url("https://i.ytimg.com/vi/w3Q7TPoApX4/maxresdefault.jpg");
+  background-size: contain;
+  margin-top: -6%;
+  width: 120%;
+  margin-left: -20%;
+  position: relative;
+ 
+}
+.navbar{
+    background-color: #2b2e30;
+
+     margin-left:-1%;
+  
+}
+.nav-link{
+   color: aliceblue;
+   text-decoration: none;
+}
 
 .card{
-    padding: 5%;
-    margin-top: 10%;
-    background-color: lightslategray;
+    padding: 4%;
+    margin-top:-0.3%;
+    background-color:  #2b2e30;
+    margin-left: -1%;
+    width: 101.8%;
 }
 form{
 margin-left: 40%;
+height: 5%;
+padding: 3%;
+width: 30%;
+color: cornsilk;
+background-color: 	#101010;
+opacity: 0.5;
 }
 
+.form-group {
+    margin-left: 35%;
+  
+}
+.custom-control {
+    margin-left: 25%;
+    justify-content: center;
+}
+button{
+    justify-content: center;
+}
