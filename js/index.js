@@ -1,26 +1,22 @@
 
+    var gender;
+    var day;
+ prompt("Enter  yur day");
+ prompt("Enter your gender");
 
+   if(day ==="sunday" && gender === "male"){
 
-   function validateForm(){
-    var gender=document.forms[myForm]["gender"];
-    var day =document.forms[myForm]["cc"];
-   document.write("OK");
-   if(day=="sunday" ){
- if( gender=="Male"){
-    document.write("Kwasi")
+    alert("Kwasi");
 }
-else if(gender =="Female"){
-document.write("Akosua")
+ else if(gender ==="Female" && day === "monday") {
+alert("Akosua");
 }
-}else if(day == "monday"){
-    if (gender == "Male"){
-        alert("Kwado")
-    }
-    else if(gender == "Female"){
- alert("AdWoa")
-    }
+
+   else if (gender === "Male" && day === "tuesday"){
+        alert("Kwado");
+    
+  
 } else{
-    alert("Wrong choice")
-return false;
-}
+    alert(" You are not right");
+
 }
