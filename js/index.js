@@ -1,7 +1,7 @@
 
     var gender;
     var day;
-alert("ok")
+
 
    if(day ==="sunday" && gender === "male"){
 
@@ -15,7 +15,4 @@ alert("Akosua");
         alert("Kwado");
     
   
-} else{
-    alert(" You are not right");
-
-}
+} 
