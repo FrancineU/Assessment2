@@ -12,7 +12,7 @@ body{
  
 }
 .navbar{
-    background-color: #2b2e30;
+    background-color: #171718;
 
      margin-left:-1%;
   
@@ -25,7 +25,7 @@ body{
 .card{
     padding: 4%;
     margin-top:-0.3%;
-    background-color:  #2b2e30;
+    background-color:#171718;
     margin-left: -1%;
     width: 101.8%;
 }
@@ -35,7 +35,7 @@ height: 5%;
 padding: 3%;
 width: 30%;
 color: cornsilk;
-background-color: 	#101010;
+background-color: 	#18181b;
 opacity: 0.5;
 }
 
