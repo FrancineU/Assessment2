@@ -1,8 +1,7 @@
 
     var gender;
     var day;
- prompt("Enter  yur day");
- prompt("Enter your gender");
+alert("ok")
 
    if(day ==="sunday" && gender === "male"){
 
