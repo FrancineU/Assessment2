@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css"> 
 
-    <script src="js/index.js"></script>
+    
 
 </head>
 <body>
@@ -32,25 +32,26 @@
     </nav>
     <div class="content">
     <h2 style="text-align: center;margin-top: 5%;">Akhan Name</h2><br>
-    <form > 
+    <form name='registration' onSubmit="return formValidation()"> 
+
      <center> <h4 style ="text-align: justify;"> Enter Your Details Here</h4></center><br>
       <div class="col-sm-10">
       <div class="form-group "   >
         <label for="formGroupExampleInput">Century of Birthday</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enetr Your Birdday">
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enetr Your Birdday" name="century">
       </div>
     </div>
     <div class="col-sm-10">
             <div class="form-group">
         <label for="formGroupExampleInput2">Year of Bithday</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender"><br>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender" name="year"><br>
 
       </div>
     </div>
     <div class="col-sm-10">
       <div class="form-group">
   <label for="formGroupExampleInput2">MOnth of Bithday</label>
-  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender"><br>
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender" name="month"><br>
  
 </div>
 </div>
@@ -58,18 +59,15 @@
 <div class="col-sm-10">
   <div class="form-group">
 <label for="formGroupExampleInput2">Date of Birthday</label>
-<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender"><br>
+<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender" name="date"><br>
 
 </div>
 </div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
-  <label class="custom-control-label" for="defaultInline1">Male</label>
-</div>
+<div class="col-sm-10">
+  <div class="form-group">
+<label for="formGroupExampleInput2">Gender </label>
+<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a gender" name="gender"><br>
 
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
-  <label class="custom-control-label" for="defaultInline2">Fermale</label>
 </div>
 <br> <br>
   <button type="button" class="btn btn-primary btn-lg">Submit</button>
@@ -100,6 +98,7 @@
       </div>
     </div>
 </div>
-
+<script src="js/index.js"></script>
 </body>
+
 </html>
